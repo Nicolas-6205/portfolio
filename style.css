@@ -1,1 +1,13 @@
+body {
+  background-color: slateblue;
+}
 
+#pp {
+  text-align: center;
+  font-weight: bold;
+  font-family: aerial;
+  font-size: 20px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+} 
