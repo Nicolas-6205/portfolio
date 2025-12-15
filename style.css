@@ -24,3 +24,12 @@ h2 {
   color: gray;
   padding-right: 50%;
 } 
+
+.button {
+  color:black;
+} 
+
+button {
+  font-size: 30px;
+  border-radius: 10px;
+} 
