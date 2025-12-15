@@ -1,5 +1,5 @@
 body {
-  background-color: slateblue;
+  background-color: #333;
 }
 
 p {
@@ -14,11 +14,11 @@ p {
 } 
 
 h1 {
-  color: black;
+  color: white;
   text-align: center;
 } 
 
 h2 {
-  color: black;
+  color: gray;
   text-align: center;
 } 
