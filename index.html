@@ -1,18 +1,51 @@
 <!DOCTYPE html>
-<HTML>
-  <head>
-    <title>Portfolio</title>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Nicolas Méhaule</title>
     <link rel="stylesheet" href="style.css">
-  </head> 
-  <body>
-    <h1>Nicolas Méhaule</h1>
-    <h2>Étudiant BTS SIO SLAM</h2>
-    <p><em>Passionné de sites, de création, d'IA et de développement Web.<em></p>
-    <h2 class="button"><strong>Mes sites</strong></h2>
-    <span><button>Snake</button><button>ColorTouch</button><button>MusicMaker</button></span>
-    <br>
-    <h2 class="button"><strong>Mes liens</strong></h2>
-    <span><button><a href="https://github.com/Nicolas-6205">Github</a></button><button>Email</button><button>CV</button></span>
-  <script src="script.js"></script>
-  </body>
-</HTML>
+</head>
+<body>
+
+    <main class="container">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-left">
+                <h1>Nicolas<br>Méhaule</h1>
+                <p class="subtitle">Étudiant BTS SIO SLAM</p>
+            </div>
+
+            <div class="hero-right">
+                <p>
+                    Jeune développeur<br>
+                    passionné de<br>
+                    développement Web<br>
+                    et de création.
+                </p>
+            </div>
+        </section>
+
+        <!-- BUTTONS -->
+        <section class="buttons">
+            <a href="https://github.com/Nicolas-6205" class="btn">GitHub</a>
+
+            <div class="btn-row">
+                <a href="mailto:tonemail@email.com" class="btn">Email</a>
+                <a href="#" class="btn">CV</a>
+            </div>
+
+            <a href="#projects" class="btn">Projet</a>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills" id="projects">
+            <img src="js.png" alt="JavaScript">
+            <img src="html.png" alt="HTML">
+            <img src="sql.png" alt="SQL">
+        </section>
+
+    </main>
+
+</body>
+</html>
