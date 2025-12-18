@@ -1,37 +1,87 @@
-body {
-  background-color: #333;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-p {
-  text-align: center;
-  font-weight: bold;
-  font-family: Arial;
-  font-size: 50px;
-  background-color: white;
-  color: black;
-  padding: 40px;
-  border-radius: 10px;
-} 
+body {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #05001a, #2b0040);
+    color: white;
+}
 
-h1 {
-  font-size: 40px;
-  color: white;
-  padding-right: 50%;
-} 
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
 
-h2 {
-  font-size: 35px;
-  color: gray;
-} 
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
 
-.button {
-  color:black;
-  text-align: center;
-  font-family: sans-serif;
-} 
+.hero-left h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
 
-button {
-  font-size: 50px;
-  border-radius: 10px;
-  margin: 40px;
-} 
+.subtitle {
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #cccccc;
+}
+
+.hero-right {
+    font-style: italic;
+    color: #bfbfbf;
+    line-height: 1.6;
+}
+
+/* BUTTONS */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.btn-row {
+    display: flex;
+    gap: 40px;
+}
+
+.btn {
+    padding: 20px 60px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, #0f1b4c, #1e3c72);
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    border: 2px solid #00c6ff;
+    box-shadow: 0 0 15px rgba(0, 198, 255, 0.4);
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.skills img {
+    width: 80px;
+}
